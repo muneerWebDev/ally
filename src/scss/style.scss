@@ -1,0 +1,17 @@
+// fonts 
+@import '../fonts/sequelsans/stylesheet';
+@import '../fonts/iconmoon/style';
+
+//variables
+@import 'custom-variables';
+
+// plugins
+@import 'bootstrap/bootstrap';
+@import 'plugins/locomotive';
+
+//general styles
+@import 'animations';
+@import 'mixins';
+@import 'elements';
+@import 'global';
+@import 'sections';

@@ -1,0 +1,36 @@
+@keyframes fadeUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes spin {
+    60% {
+        transform: rotate(180deg) scale(0.95);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+// @property --num {
+//     syntax: "<integer>";
+//     initial-value: 0;
+//     inherits: false;
+// }
+
+// .number-counter {
+//     transition: --num 3s;
+//     counter-set: num var(--num);
+// }
+// .number-counter::after {
+//     content: counter(num);
+// }
+// .number-counter.inView {
+//     --num: var(--count);
+// }

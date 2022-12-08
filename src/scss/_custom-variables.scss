@@ -1,0 +1,91 @@
+// font family
+$SequelSans: "SequelSans", sans-serif;
+
+/*** overriding bootstrap variables  **/
+
+//typography
+$font-weight-regular: 300;
+$font-weight-semibold: 500;
+$font-weight-bold: 700;
+$font-family-base: $SequelSans;
+
+//colors
+$black: #000;
+$white: #fff;
+$orange: #c85123;
+$gray: #404041;
+$bg-gray: #ccc9c6;
+$cyan: #b9b1af;
+$bg-light-gray: #f2efea;
+$bg-light: #fbf9f5;
+$bg-medium-gray: #e7e2e1;
+$border-color: #808080;
+$light-box-shadow: rgba(167, 167, 167, 0.42);
+
+$primary: $orange;
+$secondary: $black;
+$body-bg: $bg-light;
+$headings-color: $black;
+$body-color: $black;
+$link-color: $gray;
+$dropdown-link-active-color: $gray;
+$input-group-addon-bg: transparent;
+$input-group-addon-border-color: transparent;
+$light: $bg-light;
+$nav-tabs-link-active-color: $primary;
+
+//accordion
+$accordion-button-color: $gray;
+$accordion-button-active-color: $gray;
+$accordion-button-active-bg: transparent;
+$accordion-button-border-color: transparent;
+$accordion-button-focus-border-color: transparent;
+$accordion-button-box-shadow: none;
+$accordion-button-focus-box-shadow: none;
+$accordion-border-color: $border-color;
+$accordion-body-padding-x: 0;
+$accordion-icon-width: 2.5rem;
+
+//font sizes
+$enable-rfs: false;
+$font-size-root: 62.5%;
+$small-font-size: 1.2rem;
+$font-size-base: 1.4rem;
+$font-size-medium: 1.6rem;
+$font-size-large: 1.8rem;
+
+$headings-font-family: $SequelSans;
+$headings-font-weight: $font-weight-semibold;
+$font-weight-base: $font-weight-semibold;
+
+$h1-font-size: 5.6rem;
+$h2-font-size: 3rem;
+$h3-font-size: 2.4rem;
+$h4-font-size: 1.8rem;
+$h5-font-size: $font-size-base;
+$headings-margin-bottom: 3rem;
+
+// buttons
+$btn-border-radius: 0;
+
+//container-width
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 985px,
+  xxl: 1256px,
+);
+
+//grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1325px,
+);
+
+//custom variables
+$containerOffsetWithGutters: calc(var(--containerOffset) + var(--bs-gutter-x));

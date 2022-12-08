@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Fitness, get fit, Personal trainer">
+    <meta name="description" content="Fitness Website">
+    <meta name="author" content="Parel Creative">
+    <title>ALLY</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon image_src" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+        <header class="siteHeader" data-scroll-sticky>
+
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" width="120" height="30"
+                            alt="logo" class="img-fluid"></a>
+
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#sitenavbar" aria-controls="sitenavbar" aria-expanded="false"
+                        aria-label="Toggle navigation">
+
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="sitenavbar">
+                        
+                        <ul class="navbar-nav me-auto pt-4 pt-lg-0 w-100">
+                            <li class="nav-item ">
+                                <a class="nav-link
+                                @@if (nav === 'workout') {
+                                    active
+                                  }" aria-current="page" href="workout.html">THE WORKOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link
+                                @@if (nav === 'space') {
+                                    active
+                                  }" href="the-space.html">The Space<span
+                                        class="icon-book"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link
+                                @@if (nav === 'trainers') {
+                                    active
+                                  }
+                                  " href="the-trainers.html">The TRAINERS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle
+                                @@if (nav === 'about') || (nav === 'events') || (nav === 'faq') || (nav === 'recovery') || (nav === 'health&safety')  || (nav === 'health&safety')  || (nav === 'contact') {
+                                    active
+                                  }" href="javaScript:void(0)" id="infoDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    INFO</a>
+                                <ul class="dropdown-menu" aria-labelledby="infoDropdown">
+                                    <li><a class="dropdown-item 
+                                        @@if (nav === 'about') {
+                                            active
+                                          }
+                                          
+                                        " href="about.html">About us</a></li>
+                                    <li><a class="dropdown-item
+                                        @@if (nav === 'events') {
+                                            active
+                                          }
+                                          " href="events.html">Events</a></li>
+                                    <li><a class="dropdown-item
+                                        @@if (nav === 'faq') {
+                                            active
+                                          }" href="faq.html">Frequently Asked
+                                            Questions</a></li>
+                                    <li><a class="dropdown-item
+                                        @@if (nav === 'recovery') {
+                                            active
+                                          }" href="recovery.html">recovery</a></li>
+                                    <li><a class="dropdown-item
+                                        @@if (nav === 'health&safety') {
+                                            active
+                                          }" href="health-and-safety.html">health & Safety</a></li>
+                                    <li><a class="dropdown-item
+                                        @@if (nav === 'contact') {
+                                            active
+                                          }" href="contact.html">Contact us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav ms-auto">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="javaScript:void(0)">Login</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle book" href="javaScript:void(0)" id="bookDropdown"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Book A Bike
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="bookDropdown">
+                                    <li><a class="dropdown-item" href="javaScript:void(0)">8 cross street</a></li>
+                                    <li><a class="dropdown-item" href="javaScript:void(0)">Ally + Sessions</a></li>
+                                    <li class="p-0 py-lg-2">
+                                        <hr class="m-0 dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="javaScript:void(0)">Buy Classes</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+
+        </header>
+        <div class="page-wrap">
